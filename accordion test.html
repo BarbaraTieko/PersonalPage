@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" hola_ext_inject="disabled">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Fixed Top Navbar Example for Bootstrap</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="bootstrap-3.3.5-dist/css/navbar-fixed-top.css" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+
+  <style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
+  .en-markup-crop-options {
+    top: 18px !important;
+    left: 50% !important;
+    margin-left: -100px !important;
+    width: 200px !important;
+    border: 2px rgba(255,255,255,.38) solid !important;
+    border-radius: 4px !important; 
+  }
+
+  .en-markup-crop-options div div:first-of-type {
+    margin-left: 0px !important;
+  }
+  </style>
+</head>
+
+<body>
+
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Márcio's Home Page</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Home</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <!-- Main component for a primary marketing message or call to action -->
+
+
+    <div class="row">
+
+      <div class="col-xs-12 col-md-4">
+        <div class="thumbnail">
+          <img src="img/img_perfil.jpg" alt="Pessoa Bonita" class="img-circle" style="margin: 6px auto;">
+          <div class="caption ">
+            <h3>Márcio Fernando Stabile Junior</h3>
+            <p class="lead" style="font-size:20px;"> 
+              Departament of Computer Science Institute of Mathematics and Statistics University of São Paulo
+            </p>
+
+            <div class="row" style="text-align: center;">
+              <div class="col-xs-6 col-md-3" style="display: inline-block;float: none;margin: 14px 0px;">
+                <a href="http://www5.usp.br/" target="_blank" role="button" class="thumbnail">
+                  <img src="img/img_usp.png" alt="USP">
+                </a>
+              </div>
+              <div class="col-xs-6 col-md-3" style="display: inline-block;   float: none;">
+                <a href="http://www.ime.usp.br/" target="_blank" role="button" class="thumbnail">
+                  <img src="img/img_ime.png" alt="IME" >
+                </a>
+              </div>
+            </div> <!-- /row-->
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-md-8">
+        <div class="jumbotron">
+          <h2>Welcome to my website</h2>
+          <p class="lead" >
+            I am a Bachelor in Computer Science from Centro Universitário SENAC and currently mastering Computer Science in the Instituto de Matemática e Estatística of Universidade de São Paulo, focused in researching Artificial Intelligence, particularly Multi-Agent Systems.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-md-8">
+        <div class="jumbotron">
+          <h3>Curriculum Vitae</h3>
+          <p class="lead" >
+            My CV is at Lattes Curriculum System (Portuguese).
+            <a class="btn btn-default btn-sm" href="http://lattes.cnpq.br/9251674327062901" target="_blank" role="button"> 
+              <span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>
+              Lattes
+            </a>
+          </p>
+          <h3>Contact Info</h3>
+          <p class="lead" >
+            mstabile at ime.usp.br
+          </p>
+        </div>
+      </div>
+
+    </div><!-- /row-->
+
+
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <div class="page-header">
+          <h2>Published Articles</h2>
+          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingOne">
+                <h4 class="panel-title">
+                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Incorporando Filtros de Percepção para Aumentar o Desempenho de Agentes Jason
+                  </a>
+                  <img src="img/pt_ico.png" alt="Portuguese" class="img-rounded" style="height: 15px;">
+                </h4>
+              </div>
+              <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body" style="text-align: justify; text-justify: inter-word;">
+                  <h4>Abstract.</h4> 
+                  <p>
+                    The use of simulation systems is gradually increasing due to its ability
+                    to reproduce the real world. In particular, we are interested in those systems
+                    where simulated humans interact with an environment. To better exploit the potential
+                    of these systems, we can make use of intelligent autonomous agents to
+                    simulate human behavior. The use of the Jason interpreter in the creation and
+                    implementation of intelligent agents can then reduce the effort required for its
+                    development. As agents become more sophisticated, also increases the processing
+                    time required for the agent to perceive its environment, to reason about
+                    their actions, and to decide the best action to take. Such time interval can be
+                    bigger than the limit required by the simulator for an agent to act on the environment.
+                    Hence, the objective of this research is to modify the Jason interpreter in
+                    order to filter his perceptions of the environment, so as to reduce the time taken
+                    to process them and consequently reduce the agent total running time. Finally,
+                    an empirical analysis is made in order to verify the impact of perception filters
+                    on the reduction in agent’s time response and performance.
+                  </p>
+                  <br><a class="btn btn-default btn-sm" href="http://www2.ic.uff.br/~wesaac2015/Proceedings-WESAAC-2015.pdf" target="_blank" role="button"> 
+                    <span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>
+                    Conference Proceedings
+                  </a>
+                  <a class="btn btn-default btn-sm" href="bib/StabileJrWESAAC2015.bib" target="_blank" role="button" download> 
+                    <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                    Bibtex
+                  </a>
+                </div>
+                
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingTwo">
+                <h4 class="panel-title">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Collapsible Group Item #2
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                <div class="panel-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+
+      </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+
+  </body></html>
